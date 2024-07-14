@@ -2,7 +2,7 @@ package com.peng.demo.model.entity;
 
 import java.sql.Timestamp;
 
-public class user {
+public class User {
     private Integer id;
 
     private String username;
