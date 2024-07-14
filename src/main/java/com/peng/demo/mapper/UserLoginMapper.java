@@ -9,6 +9,6 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface UserLoginMapper {
 
-    @Insert("insert into user(username,password,status,create_time) values(#{username},#{password},1,CURRENT_TIME))")
+    @Insert("insert into user(username,password,status,create_time) values(#{username},#{password},1,CURRENT_TIME)")
     Integer registerUser(User user);
 }
